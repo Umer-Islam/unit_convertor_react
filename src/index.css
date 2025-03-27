@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  padding: 1rem;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 60%; */
+  margin: 0 auto;
+  max-width: 550px;
+  /* border: solid black 3px; */
+}
+.conversion {
+  background-color: #6943ff;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  color: white;
+}
+.units {
+  width: 100%;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+h1 {
+  padding: 33px 0px;
+}
+input {
+  width: 120px;
+  height: 83px;
+  background-color: transparent;
+  border: solid #b295ff 1px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  font-size: 58px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+button {
+  width: 117px;
+  height: 42px;
+  background-color: white;
+  border: #3d3d3d solid 1px;
+  border-radius: 5px;
+  font-family: Inter, sans-serif;
+  font-weight: medium;
+  font-size: 1rem;
+  color: #3d3d3d;
+}
+.card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+  color: #5a537b;
+  width: 500px;
+  height: 108.57px;
+  margin: 23px auto;
+  cursor: pointer;
+}
+.card > h2 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  padding-bottom: 9px;
+}
+.card > p {
+  font-size: 0.875rem;
+  padding-bottom: 18.5px;
+  color: #353535;
+}
