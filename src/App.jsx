@@ -8,7 +8,7 @@ function App() {
       <main className="container">
         <section className="conversion">
           <h1>Metric/Imperial Unit Conversion</h1>
-          <input type="text" />
+          <input type="text"  placeholder="11"/>
           <button>Convert</button>
         </section>
         <section className="units">
